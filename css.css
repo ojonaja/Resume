@@ -1,0 +1,77 @@
+@media print {
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #fff; /* สีพื้นหลังของกระดาษ */
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: none; /* ไม่มีเงาใต้กระดาษ */
+        border: 1px solid #ccc; /* เส้นขอบกระดาษ */
+        background-color: #fff; /* สีพื้นหลังของกระดาษ */
+    }
+
+    .profile-picture {
+        display: none; /* ภาพโปรไฟล์ไม่แสดงในหน้าพิมพ์ */
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header h1 {
+        margin-bottom: 5px;
+    }
+
+    .header h3 {
+        color: #555;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .section h2 {
+        color: #7B68EE;
+        margin-bottom: 10px;
+    }
+
+    .edu-item {
+        margin-bottom: 10px;
+    }
+
+    .skills-list {
+        padding-left: 20px;
+    }
+
+    .project-item,
+    .exp-item {
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+
+    .contact ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .contact li {
+        margin-bottom: 5px;
+    }
+
+    .contact a {
+        color: #7B68EE;
+        text-decoration: none;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+}
